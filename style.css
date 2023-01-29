@@ -1,0 +1,175 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+ul {
+    background-color: rgb(65, 63, 63);
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+ul li:hover {
+    background-color: red;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Start Hero section */
+
+.hero {
+    height: 500px;
+    background-image: url('../images/hero.jpeg');
+    background-position: center center;
+}
+
+
+.about_us {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.about_us h1 {
+    margin-bottom: 30px;
+    color: red;
+    font-size: 35px;
+}
+
+.all-box {
+    display: flex;
+}
+
+.box {
+    width: 30%;
+    background-color: #eee;
+    margin: auto;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box:hover {
+    box-shadow: 3px 3px 3px rgb(142, 97, 202);
+}
+
+i {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.box h3 {
+    font-size: 25px;
+    color: red;
+    margin-top: 20px;
+}
+
+.box p {
+
+}
+
+.content {
+    text-align: center;
+    width: 80%;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+.content h1 {
+    margin-bottom: 30px;
+    color: red;
+    font-size: 35px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.content img {
+    width: 300px;
+}
+
+
+/* Start contact us */
+
+.contact-us {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-us .contact-form {
+    width: 700px;
+    background-color: #eee;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.input-form input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgb(187, 184, 184);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.input-form input:focus {
+    border: 1px solid rgb(121, 119, 119);
+    outline: none;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(187, 184, 184);
+    border-radius: 3px;
+
+}
+
+
+.btn-send {
+    background-color: rgb(245, 139, 139);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    font: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.btn-send:hover {
+    background-color: rgb(190, 83, 83);
+}
+
+
+footer {
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: rgb(78, 75, 75);
+    line-height: 100px;
+}
